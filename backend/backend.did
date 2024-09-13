@@ -1,0 +1,7 @@
+service : {
+  flipCoin: () -> (text);
+  getHeadsImage: () -> (opt blob) query;
+  getTailsImage: () -> (opt blob) query;
+  uploadHeadsImage: (blob) -> ();
+  uploadTailsImage: (blob) -> ();
+}
